@@ -65,7 +65,16 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.main-logo{
+	color: #ffffff;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.bx-slider{
+	width: 100%;
+	height: 50vh;
+	
+	
+}
 .d-table {
   width: 100%;
   height: 100%;
@@ -584,7 +593,7 @@ Navbar CSS
 }
 
 .xton-nav {
-  background-color: #ffffff;
+  background-color: #37B7FC;
 }
 .xton-nav .container-fluid {
   padding-left: 40px;
@@ -616,7 +625,7 @@ Navbar CSS
   position: relative;
 }
 .xton-nav .navbar .navbar-nav .nav-item a {
-  color: #000000;
+  color: #ffffff;
   font-size: 16.5px;
   font-weight: 600;
   padding-left: 0;
@@ -637,6 +646,9 @@ Navbar CSS
 .xton-nav .navbar .navbar-nav .nav-item a:hover, .xton-nav .navbar .navbar-nav .nav-item a:focus, .xton-nav .navbar .navbar-nav .nav-item a.active {
   color: #f53f85;
 }
+ .xton-nav .navbar .navbar-nav .nav-item:hover{
+	border-bottom: medium #ffffff;
+}
 .xton-nav .navbar .navbar-nav .nav-item:last-child a {
   margin-right: 0;
 }
@@ -646,42 +658,9 @@ Navbar CSS
 .xton-nav .navbar .navbar-nav .nav-item:hover a, .xton-nav .navbar .navbar-nav .nav-item.active a {
   color: #f53f85;
 }
-.xton-nav .navbar .navbar-nav .nav-item .dropdown-menu {
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
-  position: absolute;
-  border: none;
-  top: 70px;
-  left: 0;
-  width: 250px;
-  z-index: 99;
-  display: block;
-  opacity: 0;
-  visibility: hidden;
-  border-radius: 0;
-  transition: all 0.2s ease-in-out;
-  padding: 0;
-  transform: scaleX(0);
-}
-.xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-  padding: 13px 20px 11px;
-  margin: 0;
-  position: relative;
-  display: block;
-  color: #666666;
-  border-bottom: 1px dashed #e5e5e5;
-  font-size: 15px;
-  font-weight: 600;
-  font-family: "Cabin";
-}
-.xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a i {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  font-size: 20px;
-  transform: translateY(-50%);
-  right: 10px;
-}
+
+
+
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #f53f85;
 }
@@ -936,7 +915,7 @@ Navbar CSS
 .xton-nav .navbar .others-option .option-item .search-btn-box .search-btn {
   font-size: 25px;
   cursor: pointer;
-  color: #000000;
+  color: #ffffff;
   transition: 0.5s;
 }
 .xton-nav .navbar .others-option .option-item .cart-btn {
@@ -947,7 +926,7 @@ Navbar CSS
 .xton-nav .navbar .others-option .option-item .cart-btn a {
   display: inline-block;
   position: relative;
-  color: #000000;
+  color: #ffffff;
 }
 .xton-nav .navbar .others-option .option-item .cart-btn a span {
   position: absolute;
@@ -973,7 +952,7 @@ Navbar CSS
 .xton-nav .navbar .others-option .option-item .burger-menu span {
   height: 1px;
   width: 25px;
-  background: #000000;
+  background: #ffffff;
   display: block;
   margin: 6px 0;
   transition: all 0.5s ease-in-out;
@@ -3737,7 +3716,7 @@ Products Details CSS
   display: inline-block;
 }
 .products-details-desc .products-details-accordion .accordion .accordion-content .products-review-form .review-title .rating .bx.bxs-star {
-  color: #ffba0a;
+  color: #ffffff;
 }
 .products-details-desc .products-details-accordion .accordion .accordion-content .products-review-form .review-title .rating i {
   color: #ebebeb;
