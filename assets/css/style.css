@@ -55,15 +55,20 @@ Default CSS
 @import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i&display=swap");
 body {
-  padding: 0;
-  margin: 0;
-  font-family: "Lato";
-  font-size: 15px; }
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+    font-size: 15px;
+    background-color:#F0F0F0;
+}
 
 img {
   max-width: 100%;
   height: auto; }
-
+.logo-text{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #37B7FC;
+}
 .d-table {
   width: 100%;
   height: 100%; }
@@ -119,11 +124,11 @@ p {
 /*default-btn&optional-btn*/
 .default-btn {
   display: inline-block;
-  border: 1px solid #f53f85;
+  border: 1px solid #37B7FC;
   padding: 10px 30px;
   transition: 0.5s;
   text-transform: uppercase;
-  background-color: #f53f85;
+  background-color: #37B7FC;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600; }
@@ -143,9 +148,9 @@ p {
   font-size: 14px;
   font-weight: 600; }
   .optional-btn:hover {
-    background-color: #f53f85;
+    background-color: #37B7FC;
     color: #ffffff;
-    border-color: #f53f85; }
+    border-color: #37B7FC; }
 
 /*section-title*/
 .section-title {
@@ -225,7 +230,7 @@ textarea.form-control {
 Top Header CSS
 =================================================*/
 .top-header {
-  background-color: #000000;
+  background-color: #ffffff;
   padding-top: 12px;
   padding-bottom: 12px; }
   .top-header .container-fluid {
@@ -238,7 +243,7 @@ Top Header CSS
   list-style-type: none; }
   .header-contact-info li {
     display: inline-block;
-    color: #d0d0d0;
+    color: #000000;
     margin-right: 25px;
     position: relative;
     font-weight: 600;
@@ -328,7 +333,7 @@ Top Header CSS
           .header-contact-info li .language-switcher .dropdown-menu .dropdown-item:hover, .header-contact-info li .language-switcher .dropdown-menu .dropdown-item:focus {
             background-color: transparent !important; }
           .header-contact-info li .language-switcher .dropdown-menu .dropdown-item:active, .header-contact-info li .language-switcher .dropdown-menu .dropdown-item.active {
-            color: #000000;
+            color: #37B7FC;
             background-color: transparent; }
         .header-contact-info li .language-switcher .dropdown-menu.show {
           opacity: 1;
@@ -368,7 +373,7 @@ Top Header CSS
   list-style-type: none; }
   .header-top-menu li {
     display: inline-block;
-    color: #d0d0d0;
+    color: #000000;
     font-weight: 600;
     margin-right: 25px;
     position: relative;
@@ -528,13 +533,13 @@ Navbar CSS
             margin-left: -3px;
             margin-right: -3px; }
           .xton-nav .navbar .navbar-nav .nav-item a:hover, .xton-nav .navbar .navbar-nav .nav-item a:focus, .xton-nav .navbar .navbar-nav .nav-item a.active {
-            color: #f53f85; }
+            color: #37B7FC; }
         .xton-nav .navbar .navbar-nav .nav-item:last-child a {
           margin-right: 0; }
         .xton-nav .navbar .navbar-nav .nav-item:first-child a {
           margin-left: 0; }
         .xton-nav .navbar .navbar-nav .nav-item:hover a, .xton-nav .navbar .navbar-nav .nav-item.active a {
-          color: #f53f85; }
+          color: #37B7FC; }
         .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu {
           box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
           background: #ffffff;
@@ -771,6 +776,9 @@ Navbar CSS
           cursor: pointer;
           color: #000000;
           transition: 0.5s; }
+.option-item .search-btn-box .search-btn.bx.bx-search-alt {
+}
+
       .xton-nav .navbar .others-option .option-item .cart-btn {
         font-size: 25px;
         position: relative;
@@ -1086,13 +1094,13 @@ Main Banner CSS
   background-repeat: no-repeat; }
 
 .banner-bg1 {
-  background-image: url(../../assets/img/main-banner1.jpg); }
+  background-image: url("../img/photorealistic-view-cows-grazing-nature-outdoors 1.png"); }
 
 .banner-bg2 {
-  background-image: url(../../assets/img/main-banner2.jpg); }
+  background-image: url("../img/view-allergens-commonly-found-dairy 1.png"); }
 
 .banner-bg3 {
-  background-image: url(../../assets/img/main-banner3.jpg); }
+  background-image: url("../img/high-angle-traditional-indian-drink 1.png"); }
 
 .banner-bg4 {
   background-image: url(../../assets/img/offer-bg.jpg); }
@@ -1148,20 +1156,20 @@ Main Banner CSS
   color: #ffffff;
   opacity: 0.92; }
 .main-banner-content.text-white .btn-box .default-btn {
-  background-color: #ffffff;
+  background-color: #37B7FC;
   color: #000000;
-  border-color: #ffffff; }
+  border-color: #37B7FC; }
   .main-banner-content.text-white .btn-box .default-btn:hover {
     color: #ffffff;
-    background-color: #000000;
-    border-color: #000000; }
+    background-color: #37B7FC;
+    border-color: #37B7FC; }
 .main-banner-content.text-white .btn-box .optional-btn {
   border-color: #ffffff;
   color: #ffffff; }
   .main-banner-content.text-white .btn-box .optional-btn:hover {
     color: #ffffff;
-    background-color: #000000;
-    border-color: #000000; }
+    background-color: #37B7FC;
+    border-color: #37B7FC; }
 .main-banner-content.text-center .btn-box .optional-btn {
   margin-left: 7px; }
 .main-banner-content.text-center .btn-box .default-btn {
@@ -1599,9 +1607,9 @@ Categories Banner CSS
   .single-categories-box:hover .content h3 {
     transform: translateY(-30px); }
   .single-categories-box:hover .content .default-btn {
-    background-color: #f53f85;
+    background-color: #37B7FC;
     color: #ffffff;
-    border-color: #f53f85;
+    border-color: #37B7FC;
     opacity: 1;
     visibility: visible;
     transform: translateY(-15px); }

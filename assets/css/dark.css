@@ -43,6 +43,10 @@ Default CSS
     background-color: #cbc1c1; }
   .switch-box input:focus + .slider {
     background-color: #4d4949; }
+body script {
+    background-color: #F0F0F0;
+}
+
   .switch-box input:checked + .slider:before {
     transform: translateX(24px);
     background: url(../../assets/img/sunny.png);
