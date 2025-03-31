@@ -1,4 +1,4 @@
-/*
+F/*
 @File: Xton Template Styles
 
 * This file contains the styling for the actual template, this
@@ -162,7 +162,7 @@ p {
   .section-title span {
     display: block;
     margin-bottom: 8px;
-    color: #f53f85;
+    color: #37b7fc;
     font-weight: 600; }
   .section-title h2 {
     margin-bottom: 0;
@@ -776,7 +776,8 @@ Navbar CSS
           cursor: pointer;
           color: #000000;
           transition: 0.5s; }
-.option-item .search-btn-box .search-btn.bx.bx-search-alt {
+.option-item .search-btn-box .search-btn .bx .bx-search-alt {
+	
 }
 
       .xton-nav .navbar .others-option .option-item .cart-btn {
@@ -1572,11 +1573,12 @@ Categories Banner CSS
       display: block;
       margin-bottom: 8px;
       transition: 0.5s;
-      color: #f53f85;
+      color: #37B7FC;
       font-weight: 600;
       transform: translateY(12px); }
     .single-categories-box .content h3 {
       margin-bottom: 0;
+	  color: #ffffff;
       transition: 0.5s;
       transform: translateY(12px);
       font-size: 30px;
@@ -1671,9 +1673,9 @@ Products CSS
   background-color: #ffffff;
   border-color: #ffffff; }
   .all-products-area .facility-slides.owl-theme .owl-nav [class*=owl-]:hover {
-    background-color: #f53f85;
+    background-color: #37B7FC;
     color: #ffffff;
-    border-color: #f53f85; }
+    border-color: #37B7FC; }
 .all-products-area .brand-area {
   background-color: #ffffff; }
 .all-products-area .brand-item a {
@@ -1733,7 +1735,7 @@ Products CSS
             color: #000000;
             position: relative; }
             .single-products-box .products-image .products-button ul li a:hover {
-              color: #f53f85; }
+              color: #37B7FC; }
             .single-products-box .products-image .products-button ul li a .tooltip-label {
               right: 110%;
               top: 45%;
@@ -1749,11 +1751,11 @@ Products CSS
               color: transparent;
               background-color: transparent;
               transition: all .2s ease-in-out;
-              background-color: #f53f85;
+              background-color: #37B7FC;
               color: #ffffff; }
               .single-products-box .products-image .products-button ul li a .tooltip-label::before {
                 content: "\e9ff";
-                color: #f53f85;
+                color: #37B7FC;
                 top: 50%;
                 position: absolute;
                 transform: translateY(-50%);
@@ -1813,7 +1815,7 @@ Products CSS
         display: inline-block;
         color: #000000; }
         .single-products-box .products-content h3 a:hover {
-          color: #f53f85; }
+          color: #37B7FC; }
     .single-products-box .products-content .price {
       margin-top: 8px;
       transition: 0.5s;
@@ -1845,7 +1847,7 @@ Products CSS
       font-size: 14px;
       font-weight: 600; }
       .single-products-box .products-content .add-to-cart:hover {
-        color: #f53f85; }
+        color: #37B7FC; }
   .single-products-box:hover .products-content .price {
     opacity: 0;
     visibility: hidden; }
