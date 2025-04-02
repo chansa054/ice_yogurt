@@ -1,4 +1,4 @@
-F/*
+/*
 @File: Xton Template Styles
 
 * This file contains the styling for the actual template, this
@@ -116,7 +116,9 @@ p {
   padding-top: 70px; }
 
 .pb-70 {
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
 
 .bg-f5f5f5 {
   background-color: #f5f5f5; }
@@ -454,7 +456,7 @@ Top Header CSS
           line-height: 13.9px;
           border-radius: 50%;
           color: #ffffff;
-          background-color: #f53f85;
+          background-color: #37B7fc;
           font-size: 10px;
           font-weight: 600; }
 
@@ -798,7 +800,7 @@ Navbar CSS
             line-height: 13.9px;
             border-radius: 50%;
             color: #ffffff;
-            background-color: #f53f85;
+            background-color: #37b7fc;
             font-size: 10px;
             font-weight: 600; }
       .xton-nav .navbar .others-option .option-item .burger-menu {
@@ -1664,6 +1666,7 @@ Products CSS
   padding-right: 30px; }
 .all-products-area .facility-area {
   margin-bottom: 30px;
+  padding-top: 30px;
   background-color: #ffffff; }
 .all-products-area .products-area {
   margin-bottom: 30px;
@@ -1748,8 +1751,8 @@ Products CSS
               visibility: hidden;
               white-space: nowrap;
               opacity: 0;
-              color: transparent;
-              background-color: transparent;
+              
+             
               transition: all .2s ease-in-out;
               background-color: #37B7FC;
               color: #ffffff; }
@@ -2437,7 +2440,7 @@ Products CSS
       border: 1px solid #d0d0d0;
       transition: 0.5s; }
     .products-filter-options .view-list-row .view-column .icon-view-one.active span, .products-filter-options .view-list-row .view-column .icon-view-one:hover span {
-      border-color: #f53f85; }
+      border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .icon-view-two {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .icon-view-two span {
@@ -2451,7 +2454,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .icon-view-two span:not(:first-child) {
           margin-left: 1px; }
       .products-filter-options .view-list-row .view-column .icon-view-two.active span, .products-filter-options .view-list-row .view-column .icon-view-two:hover span {
-        border-color: #f53f85; }
+        border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .icon-view-three {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .icon-view-three span {
@@ -2464,7 +2467,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .icon-view-three span:not(:first-child) {
           margin-left: 1px; }
       .products-filter-options .view-list-row .view-column .icon-view-three.active span, .products-filter-options .view-list-row .view-column .icon-view-three:hover span {
-        border-color: #f53f85; }
+        border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .icon-view-four {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .icon-view-four span {
@@ -2477,7 +2480,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .icon-view-four span:not(:first-child) {
           margin-left: 1px; }
       .products-filter-options .view-list-row .view-column .icon-view-four.active span, .products-filter-options .view-list-row .view-column .icon-view-four:hover span {
-        border-color: #f53f85; }
+        border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .icon-view-five {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .icon-view-five span {
@@ -2490,7 +2493,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .icon-view-five span:not(:first-child) {
           margin-left: 1px; }
       .products-filter-options .view-list-row .view-column .icon-view-five.active span, .products-filter-options .view-list-row .view-column .icon-view-five:hover span {
-        border-color: #f53f85; }
+        border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .icon-view-six {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .icon-view-six span {
@@ -2503,7 +2506,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .icon-view-six span:not(:first-child) {
           margin-left: 1px; }
       .products-filter-options .view-list-row .view-column .icon-view-six.active span, .products-filter-options .view-list-row .view-column .icon-view-six:hover span {
-        border-color: #f53f85; }
+        border-color: #37B7FC; }
     .products-filter-options .view-list-row .view-column .view-grid-switch {
       margin-left: 2px; }
       .products-filter-options .view-list-row .view-column .view-grid-switch span {
@@ -2525,7 +2528,7 @@ Products CSS
         .products-filter-options .view-list-row .view-column .view-grid-switch span:not(:first-child) {
           margin-top: 2px; }
       .products-filter-options .view-list-row .view-column .view-grid-switch.active span, .products-filter-options .view-list-row .view-column .view-grid-switch:hover span {
-        background-color: #f53f85; }
+        background-color: #37B7FC; }
 
 #products-collections-filter.products-col-one .products-col-item {
   flex: 0 0 100%;
@@ -3304,11 +3307,10 @@ Offer CSS
   z-index: 1;
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat; }
-  .offer-area.bg-image1 {
-    background-image: url(../../assets/img/offer-bg.jpg); }
-  .offer-area.bg-image2 {
-    background-image: url(../../assets/img/offer-bg2.jpg); }
+  background-repeat: no-repeat;
+ background-image: url("../img/advertise.jpg"); 
+}
+
 
 .offer-content {
   max-width: 550px;
@@ -3464,7 +3466,7 @@ Facility CSS
     font-size: 20px;
     font-weight: 700; }
   .single-facility-box:hover .icon {
-    background-color: #f53f85;
+    background-color: #37B7FC;
     color: #ffffff; }
 
 .facility-slides.owl-theme .owl-nav {
@@ -3493,9 +3495,9 @@ Facility CSS
       left: auto;
       right: 0; }
     .facility-slides.owl-theme .owl-nav [class*=owl-]:hover {
-      background-color: #f53f85;
+      background-color: #37B7FC;
       color: #ffffff;
-      border-color: #f53f85; }
+      border-color: #37B7FC; }
 .facility-slides.owl-theme:hover .owl-nav [class*=owl-] {
   left: -30px;
   opacity: 1;
@@ -3557,7 +3559,7 @@ Testimonials CSS
       font-size: 22px;
       font-weight: 700; }
     .single-testimonials-item .info span {
-      color: #f53f85;
+      color: #37B7FC;
       display: block;
       font-weight: 600;
       text-transform: uppercase; }
@@ -3570,7 +3572,7 @@ Testimonials CSS
 .owl-item.active.center .single-testimonials-item {
   box-shadow: 6px 5px 25px rgba(0, 0, 0, 0.06);
   margin-top: 0;
-  background-color: #f53f85;
+  background-color: #37B7FC;
   transition: 0.5s;
   opacity: 1; }
   .owl-item.active.center .single-testimonials-item p {
@@ -3587,7 +3589,7 @@ Testimonials CSS
     border-radius: 50%;
     transform: scale(0.9); }
   .testimonials-slides.owl-theme .owl-dots .owl-dot:hover span, .testimonials-slides.owl-theme .owl-dots .owl-dot.active span {
-    background-color: #f53f85; }
+    background-color: #37B7FC; }
   .testimonials-slides.owl-theme .owl-dots .owl-dot.active span {
     transform: scale(1.2); }
 
@@ -3646,7 +3648,7 @@ Blog CSS
       display: block;
       margin-bottom: 10px;
       text-transform: uppercase;
-      color: #f53f85;
+      color: #37B7FC;
       font-weight: 600;
       font-size: 14px; }
     .single-blog-post .post-content h3 {
@@ -3671,9 +3673,9 @@ Blog CSS
         left: 0;
         bottom: 0; }
       .single-blog-post .post-content .details-btn:hover {
-        color: #f53f85; }
+        color: #37B7FC; }
         .single-blog-post .post-content .details-btn:hover::before {
-          background-color: #f53f85; }
+          background-color: #37B7FC; }
   .single-blog-post:hover .post-image img {
     transform: scale(1.07) rotate(2deg); }
   .single-blog-post:hover .post-image .date {
@@ -3704,9 +3706,9 @@ Blog CSS
       background-color: #000000;
       margin: 2px; }
   .blog-slides.owl-theme .owl-dots .owl-dot:hover span, .blog-slides.owl-theme .owl-dots .owl-dot.active span {
-    border-color: #f53f85; }
+    border-color: #37B7FC; }
     .blog-slides.owl-theme .owl-dots .owl-dot:hover span::before, .blog-slides.owl-theme .owl-dots .owl-dot.active span::before {
-      background-color: #f53f85; }
+      background-color: #37B7FC; }
 
 .blog-items {
   margin-left: -15px;
@@ -3747,9 +3749,9 @@ Blog Details CSS
       padding-right: 0 !important;
       padding-left: 2px !important; }
     .blog-details-desc .article-image-slides.owl-theme .owl-nav [class*=owl-]:hover {
-      background-color: #f53f85;
+      background-color: #37B7FC;
       color: #ffffff;
-      border-color: #f53f85; }
+      border-color: #37B7FC; }
 .blog-details-desc .article-video iframe {
   width: 100%;
   height: 400px;
@@ -3778,7 +3780,7 @@ Blog Details CSS
         transform: translateY(-50%); }
       .blog-details-desc .article-content .entry-meta ul li span {
         display: block;
-        color: #f53f85;
+        color: #37B7FC;
         text-transform: uppercase;
         margin-bottom: 2px;
         font-size: 14px;
@@ -3873,9 +3875,9 @@ Blog Details CSS
           height: 32px;
           line-height: 32px;
           border-radius: 50%;
-          background-color: #f53f85;
+          background-color: #37B7FC;
           color: #ffffff;
-          border: 1px solid #f53f85;
+          border: 1px solid #37B7FC;
           text-align: center;
           font-size: 17px;
           margin-left: 2px; }
@@ -7050,7 +7052,7 @@ Go Top CSS
   bottom: -42px;
   right: 15px;
   color: #ffffff;
-  background-color: #f53f85;
+  background-color: #37B7fc;
   z-index: 4;
   width: 42px;
   text-align: center;
