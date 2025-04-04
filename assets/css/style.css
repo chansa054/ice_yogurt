@@ -74,6 +74,14 @@ body {
 	border-radius:5px; 
 	width: 95%;
 }
+.col-8{
+	
+}
+.text-contain{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 .contain{
 	height: 200px;
 	width: 100%;
