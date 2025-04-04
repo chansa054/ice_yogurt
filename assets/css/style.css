@@ -61,7 +61,34 @@ body {
     font-size: 15px;
     background-color:#F0F0F0;
 }
-
+.image-block {
+            width: 100%; /* Full width */
+            height: 300px; /* Fixed height */
+            background-image: url("../img/advertise.jpg"); /* Replace 'your-image.jpg' with your image path */
+            background-size: cover; /* Make the image cover the entire block */
+            background-position: center; /* Center the image */
+}
+.card-container{
+	margin-top: 20px;
+	background-color: aliceblue;
+	border-radius:5px; 
+	width: 95%;
+}
+.contain{
+	height: 200px;
+	width: 100%;
+}
+.card-img{
+	width: 90%;
+	height: 90%;
+	border-radius:5px; 
+	
+}
+.col-4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 img {
   max-width: 100%;
   height: auto; }
