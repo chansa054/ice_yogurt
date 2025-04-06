@@ -61,6 +61,67 @@ body {
     font-size: 15px;
     background-color:#F0F0F0;
 }
+.card-text{
+	color: black;
+}
+.img-fluid{
+	height: inherit;
+}
+.text-muted:hover{
+	color: #37b7fc;
+}
+.btn{
+	color: #37b7fc;
+	border-color:#37b7fc;
+}
+.btn:hover{
+	background-color:#37b7fc; 
+	border-color:#37b7fc;
+}
+.card{
+	width: 49%;
+}
+.wrap-coupon-item{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 20px;
+}
+.wrap-card-items{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 20px;
+}
+.offer-title{
+	
+	text-align: center;
+	
+	font-weight: 500;
+}
+.slider-wrap{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	width: 100%;
+	margin: 20px;
+}
+.slide{
+	 
+	height:inherit;
+	width: 90%;
+	box-shadow: 3px 3px 10px #525150;
+	border-radius: 8px;
+}
+.slider-of-img{
+	border-radius: 8px;
+	height: 500px;
+	
+}
+.del {
+	text-decoration: line-through;
+        color: #999999;
+	font-weight: 500;}
 .image-block {
             width: 100%; /* Full width */
             height: 300px; /* Fixed height */
@@ -69,18 +130,22 @@ body {
             background-position: center; /* Center the image */
 }
 .card-container{
-	margin-top: 20px;
-	background-color: aliceblue;
+	margin-top: 10px;
+	background-color: white;
 	border-radius:5px; 
 	width: 95%;
 }
 .col-8{
-	
-}
-.text-contain{
 	display: flex;
 	justify-content: center;
+	
 	flex-direction: column;
+}
+.cart-btn-add{
+	margin-top: 10px;
+}
+.text-contain{
+	margin-left: 20px;
 }
 .contain{
 	height: 200px;
@@ -860,6 +925,14 @@ Navbar CSS
           transform: rotate(-45deg);
           transform-origin: 10% 90%;
           margin-top: 5px; }
+.col-8 .text-contain .title {
+}
+.row.contain .col-4 .card-img {
+    width: 90%;
+    height: 90%;
+}
+
+
 
 @media only screen and (max-width: 991px) {
   .xton-responsive-nav {
