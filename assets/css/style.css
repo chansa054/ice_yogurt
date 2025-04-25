@@ -73,6 +73,7 @@ body {
 .btn{
 	color: #37b7fc;
 	border-color:#37b7fc;
+	margin-top: 10px;
 }
 .btn:hover{
 	background-color:#37b7fc; 
@@ -3416,7 +3417,7 @@ Offer CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
- background-image: url("../img/advertise.jpg"); 
+ background-image: url("../img/advertise2.jpg"); 
 }
 
 
@@ -3541,6 +3542,7 @@ Facility CSS
 =================================================*/
 .facility-area {
   position: relative;
+  margin-top: 20px;
   z-index: 1; }
 
 .single-facility-box {
@@ -3567,9 +3569,9 @@ Facility CSS
     display: block;
     background-color: #ffffff;
     position: relative;
-    padding-top: 18px;
+    padding: 15px;
     z-index: 1;
-    margin-top: -25px;
+    margin-top: 10px;
     margin-bottom: 0;
     font-size: 20px;
     font-weight: 700; }
